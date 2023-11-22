@@ -1,0 +1,10 @@
+{
+    "disableAutoUpdate": false,
+    "name": "auto-camera",
+    "author": "teralove",
+    "description": "Unlock maximum viewing distance.",
+    "options": {
+        "niceName": "Auto Camera"
+    },
+    "servers": ["https://raw.githubusercontent.com/FrostSigil/camera/master/"]
+}
