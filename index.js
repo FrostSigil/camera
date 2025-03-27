@@ -89,6 +89,10 @@ module.exports = function AutoCamera(mod) {
 		if (enable) setTimeout(() => { setCamera(setDistance); }, 1000)
 	});
 
+	mod.hook('S_BATTLE_FIELD_CAMERA_SET', 'raw', () => false);
+	mod.hook("S_DUNGEON_CAMERA_SET", "raw", () => false);
+	mod.hook("S_CAMERA_SHAKE", "raw", () => false);
+
 	// helper
 	function setCamera(distance) {
 		setDistance = distance;
